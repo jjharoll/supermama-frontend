@@ -1,0 +1,22 @@
+.administracion-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .administracion-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .administracion-title {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .administracion-description {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+  }
+  

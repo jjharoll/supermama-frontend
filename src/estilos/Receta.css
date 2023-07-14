@@ -1,0 +1,81 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .home-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .home-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff8000;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .recipes-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .recipes-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recipe-item {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Media Queries para dispositivos móviles */
+  
+  @media only screen and (max-width: 480px) {
+    .home-title {
+      font-size: 24px;
+    }
+  
+    .home-description {
+      font-size: 14px;
+    }
+  
+    .search-input {
+      width: 100%;
+    }
+  }
+  
